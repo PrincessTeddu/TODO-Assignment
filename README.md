@@ -1,19 +1,18 @@
 # TODO-Assignment
 
 1. Setup
-Client Setup (ReactJS)
-# npx create-react-app client
-# cd client
-# npm install axios react-router-dom
+# Client Setup (ReactJS)
+npx create-react-app client
+cd client
+npm install axios react-router-dom
 
-Server Setup (Node.js, Express)
-# mkdir server
-# cd server
-# npm init -y
-# npm install express bcryptjs jsonwebtoken cors uuid sqlite3 mongoose
+# Server Setup (Node.js, Express)
+mkdir server
+cd server
+npm init -y
+npm install express bcryptjs jsonwebtoken cors uuid sqlite3 mongoose
 
 2. Database Setup
-
 # SQLite3:
 const sqlite3 = require('sqlite3').verbose();
 const db = new sqlite3.Database('./todo.db');
